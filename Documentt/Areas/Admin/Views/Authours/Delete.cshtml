@@ -1,0 +1,64 @@
+﻿@model Documentt.Models.Authour
+
+@{
+    ViewData["Title"] = "Xóa Tác giả";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-lg">
+    <h1 class="text-3xl font-extrabold text-center mb-8 text-red-700">
+        🗑️ Xóa Tác giả
+    </h1>
+
+    <p class="text-center text-gray-700 text-lg mb-6">
+        Bạn có chắc chắn muốn xóa tác giả này không? <span class="font-semibold text-red-600">Hành động này không thể hoàn tác.</span>
+    </p>
+
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+        <div class="space-y-4 text-gray-800 text-sm">
+            <!-- Ảnh -->
+            <div class="flex items-center gap-4">
+                <span class="font-medium w-28">Ảnh:</span>
+                @if (!string.IsNullOrEmpty(Model.Img))
+                {
+                    <img src="@Model.Img" alt="Ảnh tác giả" class="w-16 h-16 object-cover rounded-full shadow" />
+                }
+                else
+                {
+                    <span class="italic text-gray-500">Không có ảnh</span>
+                }
+            </div>
+
+            <!-- Tên -->
+            <div class="flex items-center gap-4">
+                <span class="font-medium w-28">Tên:</span>
+                <span>@Html.DisplayFor(model => model.AuthourName)</span>
+            </div>
+
+            <!-- Mô tả -->
+            <div class="flex items-start gap-4">
+                <span class="font-medium w-28">Mô tả:</span>
+                <span>@(string.IsNullOrEmpty(Model.Detail) ? "Không có mô tả" : Html.DisplayFor(model => model.Detail))</span>
+            </div>
+
+            <!-- Nổi bật -->
+            <div class="flex items-center gap-4">
+                <span class="font-medium w-28">Nổi bật:</span>
+                <span>@(Model.noibat ? "✔️ Có" : "❌ Không")</span>
+            </div>
+        </div>
+
+        <form asp-action="Delete" method="post" class="mt-8">
+            <input type="hidden" asp-for="AuthourId" />
+            <div class="flex justify-between items-center">
+                <button type="submit"
+                        class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-lg font-medium transition">
+                    <i class="fas fa-trash-alt mr-1"></i> Xác nhận Xóa
+                </button>
+                <a asp-action="Index" class="text-gray-600 hover:underline hover:text-blue-600 transition text-sm">
+                    ⬅️ Hủy bỏ và quay lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

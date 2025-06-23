@@ -1,0 +1,58 @@
+﻿@model Documentt.Models.Authour
+
+@{
+    ViewData["Title"] = "Sửa Tác giả";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-2xl">
+    <h1 class="text-3xl font-extrabold text-center mb-10 text-indigo-700">✏️ Sửa Tác giả</h1>
+
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+        <form asp-action="Edit" method="post" class="space-y-6">
+            <div asp-validation-summary="ModelOnly" class="text-red-600 text-sm mb-4"></div>
+            <input type="hidden" asp-for="AuthourId" />
+
+            <!-- Ảnh -->
+            <div>
+                <label asp-for="Img" class="block text-sm font-medium text-gray-700 mb-1">Ảnh đại diện (link)</label>
+                <input asp-for="Img" class="w-full border rounded-lg px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400" placeholder="https://..." />
+                <span asp-validation-for="Img" class="text-xs text-red-600 mt-1 block"></span>
+            </div>
+
+            <!-- Tên -->
+            <div>
+                <label asp-for="AuthourName" class="block text-sm font-medium text-gray-700 mb-1">Tên tác giả</label>
+                <input asp-for="AuthourName" class="w-full border rounded-lg px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400" />
+                <span asp-validation-for="AuthourName" class="text-xs text-red-600 mt-1 block"></span>
+            </div>
+
+            <!-- Mô tả -->
+            <div>
+                <label asp-for="Detail" class="block text-sm font-medium text-gray-700 mb-1">Mô tả</label>
+                <textarea asp-for="Detail" class="w-full border rounded-lg px-4 py-2 h-28 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400 resize-none"></textarea>
+                <span asp-validation-for="Detail" class="text-xs text-red-600 mt-1 block"></span>
+            </div>
+
+            <!-- Nổi bật -->
+            <div class="flex items-center">
+                <input asp-for="noibat" type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600 mr-2" />
+                <label asp-for="noibat" class="text-sm font-medium text-gray-700">Tác giả nổi bật</label>
+            </div>
+
+            <!-- Nút -->
+            <div class="flex justify-between items-center pt-4">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-medium transition">
+                    💾 Lưu thay đổi
+                </button>
+                <a asp-action="Index" class="text-sm text-gray-600 hover:underline hover:text-indigo-600 transition">
+                    ⬅️ Quay lại danh sách
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

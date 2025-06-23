@@ -1,0 +1,23 @@
+﻿@page
+@model LogoutModel
+
+<section class="py-20 bg-gray-50 min-h-screen flex items-center justify-center">
+    <div class="bg-white rounded-xl shadow-lg p-8 w-full max-w-md text-center">
+        <h2 class="text-3xl font-bold text-blue-600 mb-6">@ViewData["Title"]</h2>
+
+        @if (User.Identity?.IsAuthenticated ?? false)
+        {
+            <p class="text-gray-700 mb-6">Bạn có chắc chắn muốn đăng xuất khỏi StudyDocs không?</p>
+            <form class="space-y-4" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold transition">Đăng xuất</button>
+            </form>
+        }
+        else
+        {
+            <p class="text-green-600 text-lg font-medium">Bạn đã đăng xuất khỏi StudyDocs thành công.</p>
+            <div class="mt-6">
+                <a asp-page="/Account/Login" class="text-blue-600 hover:underline">Đăng nhập lại</a>
+            </div>
+        }
+    </div>
+</section>

@@ -1,0 +1,54 @@
+﻿@model Documentt.Models.Product
+
+@{
+    ViewData["Title"] = "Xóa Tài liệu";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-xl">
+    <h1 class="text-4xl font-extrabold text-center mb-6 text-red-700">⚠️ Xác nhận Xóa Tài liệu</h1>
+
+    <p class="text-center text-base text-gray-700 mb-8">Bạn có chắc chắn muốn xóa tài liệu <strong>@Model.Name</strong>?<br />Hành động này <span class="font-semibold text-red-600">không thể hoàn tác</span>.</p>
+
+    <div class="bg-white rounded-2xl shadow-lg p-6 space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+            <div class="font-medium text-gray-600">Tên tài liệu:</div>
+            <div class="text-gray-900">@Model.Name</div>
+
+            <div class="font-medium text-gray-600">Danh mục:</div>
+            <div class="text-gray-900">@Model.Category?.CategoryName</div>
+
+            <div class="font-medium text-gray-600">Tác giả:</div>
+            <div class="text-gray-900">@Model.Authour?.AuthourName</div>
+
+            <div class="font-medium text-gray-600">Giá:</div>
+            <div class="text-gray-900">@Model.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</div>
+        </div>
+
+        <div class="mt-4">
+            <label class="block text-gray-600 font-medium mb-1">Ảnh minh họa:</label>
+            @if (!string.IsNullOrEmpty(Model.img))
+            {
+                <img src="@Model.img" alt="@Model.Name" class="w-32 h-32 object-cover rounded-md border" />
+            }
+            else
+            {
+                <div class="w-32 h-32 bg-gray-100 rounded-md flex items-center justify-center text-gray-500 border">
+                    Không có ảnh
+                </div>
+            }
+        </div>
+
+        <form asp-action="Delete" class="pt-6">
+            <input type="hidden" asp-for="ProductId" />
+
+            <div class="flex justify-between items-center">
+                <button type="submit"
+                        class="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-lg shadow transition">
+                    ✅ Xác nhận Xóa
+                </button>
+                <a asp-action="Index" class="text-gray-600 hover:text-gray-900 underline">⬅️ Hủy và quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

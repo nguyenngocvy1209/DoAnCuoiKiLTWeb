@@ -1,0 +1,58 @@
+﻿@page
+@model RegisterModel
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6 text-blue-600">Đăng ký</h2>
+        <form id="register-form" method="post" class="max-w-lg mx-auto space-y-6">
+            <div id="validation-summary" class="text-red-500 text-sm hidden" role="alert">
+            </div>
+
+            <div class="form-group">
+                <label for="register-username" class="block text-sm font-medium text-gray-700">Tên người dùng</label>
+                <div class="relative">
+                    <input type="text" id="register-username" name="Username" placeholder="Tên người dùng của bạn" class="w-full mt-1 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none transition pl-10" aria-required="true" autocomplete="username">
+                    <i class="fas fa-user absolute left-3 top-3 text-gray-400"></i>
+                </div>
+                <p id="register-username-error" class="text-red-500 text-sm mt-1 hidden">Tên người dùng phải có ít nhất 3 ký tự.</p>
+            </div>
+
+            <div class="form-group">
+                <label for="register-email" class="block text-sm font-medium text-gray-700">Email</label>
+                <div class="relative">
+                    <input type="email" id="register-email" name="Email" placeholder="Email của bạn" class="w-full mt-1 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none transition pl-10" aria-required="true" autocomplete="email">
+                    <i class="fas fa-envelope absolute left-3 top-3 text-gray-400"></i>
+                </div>
+                <p id="register-email-error" class="text-red-500 text-sm mt-1 hidden">Email không hợp lệ.</p>
+            </div>
+
+            <div class="form-group">
+                <label for="register-password" class="block text-sm font-medium text-gray-700">Mật khẩu</label>
+                <div class="relative">
+                    <input type="password" id="register-password" name="Password" placeholder="Mật khẩu (ít nhất 6 ký tự)" class="w-full mt-1 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none transition pl-10" aria-required="true" autocomplete="new-password">
+                    <i class="fas fa-lock absolute left-3 top-3 text-gray-400"></i>
+                </div>
+                <p id="register-password-error" class="text-red-500 text-sm mt-1 hidden">Mật khẩu phải có ít nhất 6 ký tự.</p>
+            </div>
+
+            <div class="form-group">
+                <label for="register-confirm-password" class="block text-sm font-medium text-gray-700">Xác nhận mật khẩu</label>
+                <div class="relative">
+                    <input type="password" id="register-confirm-password" name="ConfirmPassword" placeholder="Xác nhận mật khẩu" class="w-full mt-1 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none transition pl-10" aria-required="true" autocomplete="new-password">
+                    <i class="fas fa-lock absolute left-3 top-3 text-gray-400"></i>
+                </div>
+                <p id="register-confirm-password-error" class="text-red-500 text-sm mt-1 hidden">Mật khẩu xác nhận không khớp.</p>
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-page="/Account/Login" asp-route-returnUrl="@Model.ReturnUrl" class="text-blue-600 hover:underline text-sm">Đã có tài khoản? Đăng nhập</a>
+            </div>
+
+            <button type="submit" class="bg-blue-600 text-white py-3 px-4 w-full rounded-lg hover:bg-blue-700 transition font-medium">Đăng ký</button>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/res.js"></script>
+}

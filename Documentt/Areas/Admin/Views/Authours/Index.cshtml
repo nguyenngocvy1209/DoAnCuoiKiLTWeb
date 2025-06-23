@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Documentt.Models.Authour>
+
+@{
+    ViewData["Title"] = "Quản lý Tác giả";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4">
+    <h1 class="text-4xl font-extrabold text-center mb-10 text-indigo-700">📚 Quản lý Tác giả</h1>
+
+    <!-- Nút thêm tác giả -->
+    <div class="mb-6 text-right">
+        <a asp-action="Create" class="inline-block bg-green-600 text-white font-medium px-5 py-2 rounded-lg hover:bg-green-700 transition">
+            ➕ Thêm Tác giả mới
+        </a>
+    </div>
+
+    <!-- Thông báo -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg mb-6 shadow" role="alert">
+            <span class="font-medium">@TempData["SuccessMessage"]</span>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg mb-6 shadow" role="alert">
+            <span class="font-medium">@TempData["ErrorMessage"]</span>
+        </div>
+    }
+
+    <!-- Bảng danh sách tác giả -->
+    <div class="overflow-x-auto bg-white rounded-2xl shadow-md">
+        <table class="min-w-full text-sm text-gray-700">
+            <thead class="bg-gray-100 text-xs font-semibold uppercase tracking-wide text-gray-600 border-b">
+                <tr>
+                    <th class="px-6 py-4 text-left">Ảnh</th>
+                    <th class="px-6 py-4 text-left">Tên tác giả</th>
+                    <th class="px-6 py-4 text-left">Nổi bật</th>
+                    <th class="px-6 py-4 text-right">Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr class="border-b hover:bg-gray-50 transition">
+                            <!-- Ảnh -->
+                            <td class="px-6 py-4">
+                                @if (!string.IsNullOrEmpty(item.Img))
+                                {
+                                    <img src="@item.Img" alt="Tác giả" class="w-14 h-14 rounded-full object-cover border" />
+                                }
+                                else
+                                {
+                                    <span class="italic text-gray-400">Không có ảnh</span>
+                                }
+                            </td>
+
+                            <!-- Tên tác giả -->
+                            <td class="px-6 py-4 font-medium">@item.AuthourName</td>
+
+                            <!-- Nổi bật -->
+                            <td class="px-6 py-4">
+                                @if (item.noibat)
+                                {
+                                    <span class="text-green-600 font-semibold">✔ Có</span>
+                                }
+                                else
+                                {
+                                    <span class="text-gray-500">Không</span>
+                                }
+                            </td>
+
+                            <!-- Hành động -->
+                            <td class="px-6 py-4 text-right space-x-3">
+                                <a asp-action="Details" asp-route-id="@item.AuthourId" class="text-blue-600 hover:underline">Chi tiết</a>
+                                <a asp-action="Edit" asp-route-id="@item.AuthourId" class="text-indigo-600 hover:underline">Sửa</a>
+                                <a asp-action="Delete" asp-route-id="@item.AuthourId" class="text-red-600 hover:underline">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="px-6 py-6 text-center text-gray-500 italic">
+                            Không có tác giả nào được tìm thấy.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

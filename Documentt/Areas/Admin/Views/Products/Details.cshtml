@@ -1,0 +1,83 @@
+﻿@model Documentt.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết Tài liệu";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-4xl">
+    <h1 class="text-4xl font-extrabold text-center mb-10 text-indigo-700">📘 Chi tiết Tài liệu</h1>
+
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+            <!-- Thông tin văn bản -->
+            <div class="space-y-4 text-sm">
+                <div>
+                    <span class="font-semibold text-gray-600">Tên tài liệu:</span>
+                    <p class="text-gray-900">@Model.Name</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Mô tả:</span>
+                    <p class="text-gray-900">@Model.Description</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Giá:</span>
+                    <p class="text-gray-900">@Model.Price.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Link tài liệu:</span>
+                    <p class="text-blue-600 underline break-all">@Model.link</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Danh mục:</span>
+                    <p class="text-gray-900">@Model.Category?.CategoryName</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Tác giả:</span>
+                    <p class="text-gray-900">@Model.Authour?.AuthourName</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Mới:</span>
+                    <p class="text-gray-900">@Model.New</p>
+                </div>
+                <div>
+                    <span class="font-semibold text-gray-600">Nổi bật:</span>
+                    <p class="text-gray-900">@Model.Trending</p>
+                </div>
+            </div>
+
+            <!-- Hình ảnh -->
+            <div>
+                <h2 class="text-lg font-semibold text-gray-700 mb-4">Hình ảnh tài liệu</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    @{
+                        var images = new[] { Model.img, Model.img1, Model.img2, Model.img3, Model.img4, Model.img5 };
+                        foreach (var img in images)
+                        {
+                            if (!string.IsNullOrEmpty(img))
+                            {
+                                <img src="@img" alt="@Model.Name" class="w-full h-32 object-cover rounded-lg border" />
+                            }
+                            else
+                            {
+                                <div class="w-full h-32 bg-gray-100 flex items-center justify-center text-gray-500 rounded-lg border">
+                                    Không ảnh
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 flex justify-start gap-4">
+            <a asp-action="Edit" asp-route-id="@Model.ProductId" class="bg-blue-600 text-white font-medium px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+                ✏️ Sửa
+            </a>
+            <a asp-action="Index" class="text-gray-600 hover:underline">
+                ⬅️ Quay lại danh sách
+            </a>
+        </div>
+    </div>
+</div>

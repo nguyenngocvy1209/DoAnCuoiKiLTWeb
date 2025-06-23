@@ -1,0 +1,90 @@
+﻿@model Documentt.Controllers.ProfileViewModel
+
+@{
+    ViewData["Title"] = "Hồ sơ người dùng";
+    Layout = "_Layout";
+}
+
+<main class="container mx-auto py-12 px-4">
+    <h2 class="text-4xl font-bold text-center mb-10 text-blue-700">👤 Hồ sơ người dùng</h2>
+
+    @* Thông báo thành công/thất bại *@
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="bg-green-100 border border-green-400 text-green-800 px-4 py-3 rounded-lg mb-6 shadow" role="alert">
+            <span class="font-semibold">@TempData["SuccessMessage"]</span>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="bg-red-100 border border-red-400 text-red-800 px-4 py-3 rounded-lg mb-6 shadow" role="alert">
+            <span class="font-semibold">@TempData["ErrorMessage"]</span>
+        </div>
+    }
+
+    <section id="profile-section" class="bg-white rounded-2xl shadow-lg p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Thông tin cá nhân -->
+            <div>
+                <h3 class="text-2xl font-semibold text-blue-800 mb-4">📝 Thông tin cá nhân</h3>
+
+                <div class="space-y-3 text-gray-700">
+                    <p><strong>Email:</strong> <span class="text-gray-900">@Model.Email</span></p>
+
+                    <p>
+                        <strong>Số dư hiện tại:</strong>
+                        <span class="text-green-700 font-bold text-lg">@Model.Balance.ToString("N0") VND</span>
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap gap-4 mt-6">
+                    <a asp-action="TopUp" class="flex items-center gap-2 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition font-medium">
+                        <i class="fas fa-wallet"></i> Nạp tiền
+                    </a>
+
+                    <a asp-action="ChangePassword" class="flex items-center gap-2 bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 transition font-medium">
+                        <i class="fas fa-key"></i> Đổi mật khẩu
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Lịch sử mua hàng -->
+            <div>
+                <h3 class="text-2xl font-semibold text-blue-800 mb-4">🛒 Lịch sử mua hàng</h3>
+                <ul class="space-y-3">
+                    @if (Model.PurchaseHistory != null && Model.PurchaseHistory.Any())
+                    {
+                        @foreach (var item in Model.PurchaseHistory)
+                        {
+                            <li class="bg-gray-50 border border-gray-200 p-4 rounded-lg flex justify-between items-center hover:bg-gray-100 transition">
+                                @if (!string.IsNullOrEmpty(item.ProductLink))
+                                {
+                                    <a href="@item.ProductLink" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-medium flex items-center gap-2">
+                                        <i class="fas fa-file-alt text-blue-500"></i> @item.ProductName
+                                        <i class="fas fa-download text-blue-400 ml-2"></i>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="text-gray-800 flex items-center gap-2">
+                                        <i class="fas fa-file-alt text-gray-400"></i> @item.ProductName
+                                    </span>
+                                }
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="text-gray-500 italic">Bạn chưa mua sản phẩm nào.</li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

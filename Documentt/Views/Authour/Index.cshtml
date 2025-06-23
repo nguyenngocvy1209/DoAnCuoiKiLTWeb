@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Documentt.Models.Authour>
+
+<section id="all-authors" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-600">Tất Cả Tác Giả</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="all-authors-list">
+            @foreach (var item in Model)
+            {
+                <div class="author-card bg-white rounded-lg shadow-md overflow-hidden transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="@item.Img" alt="Nguyễn Ngọc Vỹ" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold truncate">@item.AuthourName</h3>
+                        <p class="text-sm text-gray-600 mb-2">@item.Detail</p>
+                        <a asp-controller="Authour" asp-action="tacgia" asp-route-aId="@item.AuthourId" class="text-blue-600 hover:underline text-sm">Xem hồ sơ</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

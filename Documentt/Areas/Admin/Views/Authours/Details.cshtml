@@ -1,0 +1,79 @@
+﻿@model Documentt.Models.Authour
+
+@{
+    ViewData["Title"] = "Chi tiết Tác giả";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-3xl">
+    <h1 class="text-3xl font-extrabold text-center mb-8 text-indigo-700">📘 Chi tiết Tác giả</h1>
+
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+        <!-- Thông tin tác giả -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-6 text-gray-800">
+            <!-- Ảnh tác giả -->
+            <div class="md:col-span-2 flex justify-center">
+                @if (!string.IsNullOrEmpty(Model.Img))
+                {
+                    <img src="@Model.Img" alt="Ảnh tác giả"
+                         class="w-32 h-32 object-cover rounded-full shadow-md border-2 border-indigo-400" />
+                }
+                else
+                {
+                    <div class="w-32 h-32 flex items-center justify-center bg-gray-100 rounded-full border text-gray-500">
+                        Không có ảnh
+                    </div>
+                }
+            </div>
+
+            <!-- Tên tác giả -->
+            <div>
+                <h4 class="font-semibold text-gray-700">Tên:</h4>
+                <p class="text-lg">@Model.AuthourName</p>
+            </div>
+
+            <!-- Mô tả -->
+            <div>
+                <h4 class="font-semibold text-gray-700">Mô tả:</h4>
+                <p class="text-gray-700">
+                    @(string.IsNullOrWhiteSpace(Model.Detail) ? "Không có mô tả." : Model.Detail)
+                </p>
+            </div>
+
+            <!-- Nổi bật -->
+            <div>
+                <h4 class="font-semibold text-gray-700">Nổi bật:</h4>
+                <p>@(Model.noibat ? "✔️ Có" : "❌ Không")</p>
+            </div>
+        </div>
+
+        <!-- Danh sách sản phẩm -->
+        <div class="mt-8">
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">📄 Sản phẩm của tác giả này:</h3>
+            @if (Model.Products != null && Model.Products.Any())
+            {
+                <ul class="list-disc list-inside space-y-1 text-gray-700">
+                    @foreach (var product in Model.Products)
+                    {
+                        <li>@product.Name</li> @* Đảm bảo Product có thuộc tính Name *@
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-gray-500 italic">Tác giả này chưa có sản phẩm nào được liên kết.</p>
+            }
+        </div>
+
+        <!-- Nút hành động -->
+        <div class="mt-10 flex justify-between items-center">
+            <a asp-action="Edit" asp-route-id="@Model.AuthourId"
+               class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-5 rounded-lg transition">
+                ✏️ Sửa
+            </a>
+            <a asp-action="Index" class="text-gray-600 hover:underline hover:text-indigo-600 transition text-sm">
+                ⬅️ Quay lại danh sách
+            </a>
+        </div>
+    </div>
+</div>

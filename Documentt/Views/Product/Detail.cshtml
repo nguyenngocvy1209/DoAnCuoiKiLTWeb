@@ -1,0 +1,161 @@
+﻿@model Documentt.Models.Product
+
+<style>
+    .carousel-container {
+        position: relative;
+        max-width: 600px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .carousel-slides {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .carousel-slide {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+        .carousel-slide img {
+            width: 100%; /* Đảm bảo ảnh rộng như container */
+            height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+            object-fit: contain; /* Giữ tỷ lệ ảnh gốc mà không bị cắt */
+            border-radius: 10px;
+        }
+
+    .carousel-nav label.dot {
+        cursor: pointer;
+        width: 14px;
+        height: 14px;
+        background-color: #afafaf;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.3s;
+    }
+
+    /* Khi radio được chọn, dùng ~ để chọn label theo thứ tự */
+    #slide1:checked ~ .carousel-slides ~ .carousel-nav label:nth-child(1),
+    #slide2:checked ~ .carousel-slides ~ .carousel-nav label:nth-child(2),
+    #slide3:checked ~ .carousel-slides ~ .carousel-nav label:nth-child(3),
+    #slide4:checked ~ .carousel-slides ~ .carousel-nav label:nth-child(4),
+    #slide5:checked ~ .carousel-slides ~ .carousel-nav label:nth-child(5) {
+        background-color: #007bff;
+    }
+
+
+    /* Radio buttons ẩn đi */
+    input[name="carousel"] {
+        display: none;
+    }
+
+    /* Điều khiển chuyển ảnh bằng radio */
+    #slide1:checked ~ .carousel-slides {
+        transform: translateX(0%);
+    }
+
+    #slide2:checked ~ .carousel-slides {
+        transform: translateX(-100%);
+    }
+
+    #slide3:checked ~ .carousel-slides {
+        transform: translateX(-200%);
+    }
+
+    #slide4:checked ~ .carousel-slides {
+        transform: translateX(-300%);
+    }
+
+    #slide5:checked ~ .carousel-slides {
+        transform: translateX(-400%);
+    }
+
+    .carousel-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+        .carousel-nav label {
+            cursor: pointer;
+            width: 12px;
+            height: 12px;
+            background-color: #afafaf;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+    input:checked + label {
+        background-color: #007bff;
+    }
+
+
+</style>
+<section id="product-details" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Product Image -->
+            <div class="w-full lg:w-1/2">
+                <img src="@Model.img" alt="@Model.Name" class="w-full h-96 object-cover rounded-xl shadow-lg">
+            </div>
+
+            <!-- Product Info -->
+            <div class="flex-1">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">@Model.Name</h1>
+                <p class="text-2xl text-blue-600 font-semibold mb-3">@Model.Price.ToString("N0") VNĐ</p>
+                <p class="text-sm text-gray-600 mb-2">Danh mục: <span class="font-medium text-gray-800">@Model.Category.CategoryName</span></p>
+                <p class="text-gray-700 leading-relaxed mb-6">@Model.Description</p>
+
+                <!-- Buttons -->
+                <!-- Buttons -->
+                <div class="flex flex-wrap gap-4">
+                    <a asp-controller="Shoppingcart" asp-action="AddToShoppingCart" asp-route-pId="@Model.ProductId"
+                       class="inline-flex items-center px-6 py-3 text-lg bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition">
+                        <i class="fas fa-cart-plus mr-2"></i>Thêm vào giỏ
+                    </a>
+                    <a asp-controller="Shoppingcart" asp-action="BuyToCart" asp-route-pId="@Model.ProductId"
+                       class="inline-flex items-center px-6 py-3 text-lg bg-green-600 text-white font-semibold rounded-full hover:bg-green-700 transition">
+                        <i class="fas fa-shopping-bag mr-2"></i>Mua ngay
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Preview Carousel -->
+<section class="py-12 bg-gray-100">
+    <h2 class="text-3xl font-bold mb-6 text-center" style="color: black;">Xem trước tài liệu</h2>
+    <div class="container mx-auto px-4">
+        <div class="carousel-container">
+            <!-- Radio buttons -->
+            <input type="radio" name="carousel" id="slide1" checked>
+            <input type="radio" name="carousel" id="slide2">
+            <input type="radio" name="carousel" id="slide3">
+            <input type="radio" name="carousel" id="slide4">
+            <input type="radio" name="carousel" id="slide5">
+
+            <!-- Slides -->
+            <div class="carousel-slides">
+                <div class="carousel-slide"><img src="@Model.img1" alt="Ảnh 1"></div>
+                <div class="carousel-slide"><img src="@Model.img2" alt="Ảnh 2"></div>
+                <div class="carousel-slide"><img src="@Model.img3" alt="Ảnh 3"></div>
+                <div class="carousel-slide"><img src="@Model.img4" alt="Ảnh 4"></div>
+                <div class="carousel-slide"><img src="@Model.img5" alt="Ảnh 5"></div>
+            </div>
+
+            <!-- Navigation Dots -->
+            <div class="carousel-nav">
+                <label for="slide1" class="dot"></label>
+                <label for="slide2" class="dot"></label>
+                <label for="slide3" class="dot"></label>
+                <label for="slide4" class="dot"></label>
+                <label for="slide5" class="dot"></label>
+            </div>
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,174 @@
+﻿
+<section id="home" class="hero-section h-96 flex items-center justify-center text-white bg-cover bg-center bg-fixed pt-16" style="background-image: url('https://marketplace.canva.com/EAFAUD7iGHY/1/0/1600w/canva-brown-aesthetic-study-vlog-youtube-thumbnail-bLXqXTEoJ2Y.jpg');">
+    <div class="text-center bg-black bg-opacity-50 p-8 rounded-lg">
+        <h2 class="text-4xl font-bold mb-4">Khám phá tài liệu học tập chất lượng</h2>
+        <p class="text-lg mb-6">Hàng ngàn tài liệu từ sinh viên và chuyên gia trên toàn quốc, sẵn sàng hỗ trợ bạn học tập hiệu quả.</p>
+        <a asp-controller="Product" asp-action="Index" class="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition">Khám phá ngay</a>
+    </div>
+</section>
+
+<section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-600">Về StudyDocs</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-bold mb-2">Sứ mệnh</h3>
+                <p class="text-gray-600">Cung cấp nền tảng chia sẻ tài liệu học tập chất lượng, giúp sinh viên và giáo viên tiếp cận kiến thức dễ dàng.</p>
+            </div>
+            <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-bold mb-2">Tầm nhìn</h3>
+                <p class="text-gray-600">Trở thành nền tảng học tập trực tuyến hàng đầu tại Việt Nam, kết nối cộng đồng học thuật toàn quốc.</p>
+            </div>
+            <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-bold mb-2">Giá trị cốt lõi</h3>
+                <ul class="list-disc list-inside text-gray-600">
+                    <li>Chất lượng tài liệu được đảm bảo.</li>
+                    <li>Hỗ trợ cộng đồng học tập 24/7.</li>
+                    <li>Giá cả hợp lý, thanh toán linh hoạt.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section id="categories" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6 text-blue-600">Danh mục tài liệu</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="category-card bg-white rounded-lg shadow p-6 text-center hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-calculator text-3xl text-blue-600 mb-2"></i>
+                <h3 class="text-lg font-bold mb-2">Toán học</h3>
+                <p class="text-sm text-gray-600 mb-2">Giải tích, Đại số, Xác suất...</p>
+                <a asp-controller="Product" asp-action="Getcategory" asp-route-cateId="3" class="text-blue-600 hover:underline">Xem tài liệu</a>
+            </div>
+            <div class="category-card bg-white rounded-lg shadow p-6 text-center hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-code text-3xl text-blue-600 mb-2"></i>
+                <h3 class="text-lg font-bold mb-2">Lập trình</h3>
+                <p class="text-sm text-gray-600 mb-2">Python, Java, C++...</p>
+                <a asp-controller="Product" asp-action="Getcategory" asp-route-cateId="2" class="text-blue-600 hover:underline">Xem tài liệu</a>
+            </div>
+            <div class="category-card bg-white rounded-lg shadow p-6 text-center hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-chart-line text-3xl text-blue-600 mb-2"></i>
+                <h3 class="text-lg font-bold mb-2">Kinh tế</h3>
+                <p class="text-sm text-gray-600 mb-2">Quản trị, Kinh tế vĩ mô...</p>
+                <a asp-controller="Product" asp-action="Getcategory" asp-route-cateId="1" class="text-blue-600 hover:underline">Xem tài liệu</a>
+            </div>
+            <div class="category-card bg-white rounded-lg shadow p-6 text-center hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-cogs text-3xl text-blue-600 mb-2"></i>
+                <h3 class="text-lg font-bold mb-2">Kỹ thuật</h3>
+                <p class="text-sm text-gray-600 mb-2">Cơ khí, Điện tử...</p>
+                <a asp-controller="Product" asp-action="Getcategory" asp-route-cateId="4" class="text-blue-600 hover:underline">Xem tài liệu</a>
+            </div>
+            <div class="category-card bg-white rounded-lg shadow p-6 text-center hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-language text-3xl text-blue-600 mb-2"></i>
+                <h3 class="text-lg font-bold mb-2">Ngôn ngữ học</h3>
+                <p class="text-sm text-gray-600 mb-2">
+                    Ngữ pháp_tweet
+
+                    pháp, Ngữ nghĩa học...
+                </p>
+                <a asp-controller="Product" asp-action="Getcategory" asp-route-cateId="9" class="text-blue-600 hover:underline">Xem tài liệu</a>
+            </div>
+            <div class="category-card bg-white rounded-lg shadow p-6 text-center hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-briefcase text-3xl text-blue-600 mb-2"></i>
+                <h3 class="text-lg font-bold mb-2">Quản trị kinh doanh</h3>
+                <p class="text-sm text-gray-600 mb-2">Chiến lược, Marketing...</p>
+                <a asp-controller="Product" asp-action="Getcategory" asp-route-cateId="10" class="text-blue-600 hover:underline">Xem tài liệu</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Documents Section -->
+<section id="new-documents" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6 text-blue-600">Tài liệu mới nhất</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="new-documents-list">
+            @foreach (var item in ViewBag.New as IEnumerable<Documentt.Models.Product>)
+            {
+                <div class="product-card bg-white rounded-lg shadow-md overflow-hidden transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="@item.img" alt="Quản trị chiến lược" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold truncate">@item.Name</h3>
+                        <p class="text-red-500 font-medium">@item.Price.ToString("N0") đ</p>
+                        <p class="text-sm text-gray-600">@item.Category.CategoryName</p>
+                        
+                        
+                        <div class="flex gap-2 mt-2">
+                            <a asp-controller="Shoppingcart" asp-action="AddToShoppingCart" asp-route-pId="@item.ProductId">
+                                <button class="add-to-cart-btn btn bg-green-600 text-white px-2 py-1 rounded-full hover:bg-green-700 transition text-xs" data-product-id="10"><i class="fas fa-cart-plus mr-1"></i>Thêm vào giỏ</button>
+                            </a>
+                            <a asp-controller="Product" asp-action="Detail" asp-route-Id="@item.ProductId">
+                                <button class="view-details-btn btn bg-blue-600 text-white px-2 py-1 rounded-full hover:bg-blue-700 transition text-xs" data-product-id="10"><i class="fas fa-eye mr-1"></i>Xem chi tiết</button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+       
+        <div class="text-center mt-6">
+            <a href="/products.html" class="text-blue-600 hover:underline font-medium">Xem tất cả tài liệu</a>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section id="featured-products" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6 text-center text-blue-600">Tài liệu nổi bật</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="featured-products-list">
+            @foreach (var item in ViewBag.Trending as IEnumerable<Documentt.Models.Product>)
+            {
+                <div class="product-card bg-white rounded-lg shadow-md overflow-hidden transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="@item.img" alt="Quản trị chiến lược" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold truncate">@item.Name</h3>
+                        <p class="text-red-500 font-medium">@item.Price.ToString("N0") đ</p>
+                        <p class="text-sm text-gray-600">@item.Category.CategoryName</p>
+                       
+                       
+                        <div class="flex gap-2 mt-2">
+                            <a asp-controller="Shoppingcart" asp-action="AddToShoppingCart" asp-route-pId="@item.ProductId">
+                                <button class="add-to-cart-btn btn bg-green-600 text-white px-2 py-1 rounded-full hover:bg-green-700 transition text-xs" data-product-id="10"><i class="fas fa-cart-plus mr-1"></i>Thêm vào giỏ</button>
+                            </a>
+                            <a asp-controller="Product" asp-action="Detail" asp-route-Id="@item.ProductId">
+                                <button class="view-details-btn btn bg-blue-600 text-white px-2 py-1 rounded-full hover:bg-blue-700 transition text-xs" data-product-id="10"><i class="fas fa-eye mr-1"></i>Xem chi tiết</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        
+    </div>
+</section>
+
+<!-- Featured Authors Section -->
+<section id="featured-authors" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6 text-blue-600">Tác giả nổi bật</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="featured-authors-list">
+            @foreach (var item in ViewBag.noibat as IEnumerable<Documentt.Models.Authour>) // Using the corrected type from previous solution
+            {
+                <div class="author-card bg-white rounded-lg shadow-md overflow-hidden transition transform hover:-translate-y-2 hover:shadow-lg">
+                    <img src="@item.Img" alt="@item.AuthourName" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold truncate">@item.AuthourName</h3>
+                        <p class="text-sm text-gray-600 mb-2">@item.Detail</p>
+                        <p class="text-sm text-gray-600">Tài liệu: ?</p>
+                        <a asp-controller="Authour" asp-action="tacgia" asp-route-aId="@item.AuthourId" class="text-blue-600 hover:underline text-sm">Xem hồ sơ</a>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-center mt-6">
+            <a asp-controller="Authour" asp-action="Index" class="text-blue-600 hover:underline font-medium">Xem tất cả tác giả</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->

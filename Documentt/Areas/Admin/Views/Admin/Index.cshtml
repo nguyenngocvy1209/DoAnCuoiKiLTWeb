@@ -1,0 +1,65 @@
+﻿<div class="container mx-auto py-12 px-4">
+    <h1 class="text-4xl font-extrabold text-center mb-12 text-indigo-700">📊 Bảng điều khiển quản trị</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Quản lý Danh mục -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition">
+            <div class="flex items-center justify-center w-14 h-14 bg-blue-100 text-blue-600 rounded-full mx-auto mb-4">
+                <i class="fas fa-folder-open text-xl"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-center text-gray-800 mb-2">Quản lý Danh mục</h2>
+            <p class="text-sm text-gray-600 text-center mb-4">Thêm, sửa, xóa danh mục sản phẩm.</p>
+            <div class="text-center">
+                <a asp-area="Admin" asp-controller="Categories" asp-action="Index"
+                   class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700 transition">
+                    Đi tới
+                </a>
+            </div>
+        </div>
+
+        <!-- Quản lý Sản phẩm -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition">
+            <div class="flex items-center justify-center w-14 h-14 bg-green-100 text-green-600 rounded-full mx-auto mb-4">
+                <i class="fas fa-box-open text-xl"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-center text-gray-800 mb-2">Quản lý Sản phẩm</h2>
+            <p class="text-sm text-gray-600 text-center mb-4">Thêm, sửa, xóa và quản lý chi tiết sản phẩm.</p>
+            <div class="text-center">
+                <a asp-area="Admin" asp-controller="Products" asp-action="Index"
+                   class="inline-block bg-green-600 text-white px-5 py-2 rounded-full font-medium hover:bg-green-700 transition">
+                    Đi tới
+                </a>
+            </div>
+        </div>
+
+        <!-- Quản lý Người dùng -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition">
+            <div class="flex items-center justify-center w-14 h-14 bg-yellow-100 text-yellow-600 rounded-full mx-auto mb-4">
+                <i class="fas fa-users-cog text-xl"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-center text-gray-800 mb-2">Quản lý Người dùng</h2>
+            <p class="text-sm text-gray-600 text-center mb-4">Xem, chỉnh sửa vai trò hoặc xóa người dùng.</p>
+            <div class="text-center">
+                <a asp-area="Admin" asp-controller="Users" asp-action="Index"
+                   class="inline-block bg-yellow-600 text-white px-5 py-2 rounded-full font-medium hover:bg-yellow-700 transition">
+                    Đi tới
+                </a>
+            </div>
+        </div>
+
+        <!-- Quản lý Tác giả -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition">
+            <div class="flex items-center justify-center w-14 h-14 bg-purple-100 text-purple-600 rounded-full mx-auto mb-4">
+                <i class="fas fa-user-edit text-xl"></i>
+            </div>
+            <h2 class="text-xl font-semibold text-center text-gray-800 mb-2">Quản lý Tác giả</h2>
+            <p class="text-sm text-gray-600 text-center mb-4">Thêm, sửa, xóa và quản lý thông tin tác giả.</p>
+            <div class="text-center">
+                <a asp-area="Admin" asp-controller="Authours" asp-action="Index"
+                   class="inline-block bg-purple-600 text-white px-5 py-2 rounded-full font-medium hover:bg-purple-700 transition">
+                    Đi tới
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

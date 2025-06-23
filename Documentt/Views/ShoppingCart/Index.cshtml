@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Documentt.Models.ShopingcartItem>
+
+@{
+    ViewData["Title"] = "Giỏ hàng của bạn";
+    Layout = "_Layout";
+
+    decimal userBalance = ViewBag.UserBalance ?? 0.00m;
+    decimal totalCart = ViewBag.TotalCart ?? 0.00m;
+}
+
+<div class="container mx-auto py-12 px-4">
+    <h1 class="text-4xl font-bold text-center mb-10 text-indigo-700">🛒 Giỏ hàng của bạn</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="bg-green-100 border border-green-400 text-green-800 px-6 py-4 rounded-lg mb-6 shadow" role="alert">
+            <i class="fas fa-check-circle mr-2"></i>@TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="bg-red-100 border border-red-400 text-red-800 px-6 py-4 rounded-lg mb-6 shadow" role="alert">
+            <i class="fas fa-exclamation-triangle mr-2"></i>@TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <section class="bg-white rounded-2xl shadow-lg p-8">
+            <div id="cart-items" class="space-y-6 mb-8">
+                @foreach (var item in Model)
+                {
+                    <div class="bg-gray-50 border border-gray-200 p-4 rounded-lg flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                        <img src="@item.Product.img" alt="@item.Product.Name" class="w-24 h-24 object-cover rounded">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold">@item.Product.Name</h3>
+                            <p class="text-sm text-gray-600">@item.Product.Category.CategoryName</p>
+                            <p class="text-red-600 font-bold mt-1">@item.Product.Price.ToString("N0") VNĐ</p>
+                        </div>
+                        <a asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-pId="@item.Product.ProductId"
+                           class="bg-red-600 hover:bg-red-700 text-white py-2 px-3 rounded-lg transition text-sm font-medium">
+                            <i class="fas fa-trash mr-1"></i> Xóa
+                        </a>
+                    </div>
+                }
+            </div>
+
+            <!-- Tổng tiền + số dư -->
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+                <div>
+                    <p class="text-xl font-bold text-blue-700">Tổng cộng: @totalCart.ToString("N0") VNĐ</p>
+                    <p class="text-lg font-medium mt-1">
+                        Số dư của bạn:
+                        <span class="@(userBalance < totalCart ? "text-red-600" : "text-green-600") font-semibold">
+                            @userBalance.ToString("N0") VNĐ
+                        </span>
+                    </p>
+                    @if (userBalance < totalCart)
+                    {
+                        <p class="text-red-600 text-sm mt-1">⚠️ Số dư không đủ để thanh toán. Vui lòng nạp thêm tiền.</p>
+                    }
+                </div>
+
+                <!-- Hành động -->
+                <div class="flex gap-4">
+                    <a asp-controller="ShoppingCart" asp-action="ClearShoppingCart"
+                       class="bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg transition font-semibold">
+                        <i class="fas fa-trash-alt mr-2"></i>Xóa giỏ hàng
+                    </a>
+
+                    <form asp-controller="ShoppingCart" asp-action="Checkout" method="post">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition font-semibold"
+                        @(userBalance < totalCart ? "disabled" : "")>
+                            <i class="fas fa-credit-card mr-2"></i>Thanh toán
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    }
+    else
+    {
+        <section class="py-16 bg-white rounded-2xl shadow-md text-center">
+            <div class="max-w-lg mx-auto">
+                <i class="fas fa-shopping-cart text-6xl text-gray-400 mb-4"></i>
+                <h2 class="text-2xl font-bold mb-2 text-blue-600">Giỏ hàng trống</h2>
+                <p class="text-gray-600 mb-6">Bạn chưa thêm sản phẩm nào vào giỏ hàng.</p>
+                <a asp-controller="Home" asp-action="Index"
+                   class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                    <i class="fas fa-home mr-2"></i>Quay lại trang chủ
+                </a>
+            </div>
+        </section>
+    }
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

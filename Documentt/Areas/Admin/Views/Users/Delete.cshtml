@@ -1,0 +1,51 @@
+﻿@model Documentt.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "Xóa Người dùng";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-xl">
+    <h1 class="text-4xl font-bold text-center text-red-700 mb-6">🗑️ Xóa Người dùng</h1>
+
+    <p class="text-center text-gray-700 text-lg mb-6">
+        ⚠️ Bạn có chắc chắn muốn xóa người dùng này không?<br />
+        <span class="text-sm text-red-500 italic">Hành động này sẽ không thể hoàn tác.</span>
+    </p>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg mb-6">
+            ❌ @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <div class="bg-white rounded-2xl shadow-xl p-6">
+        <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4 mb-6">
+            <div>
+                <dt class="text-sm text-gray-500 font-medium">👤 Tên đăng nhập</dt>
+                <dd class="text-base text-gray-800 font-semibold">@Html.DisplayFor(model => model.UserName)</dd>
+            </div>
+
+            <div>
+                <dt class="text-sm text-gray-500 font-medium">📧 Email</dt>
+                <dd class="text-base text-gray-800 font-semibold">@Html.DisplayFor(model => model.Email)</dd>
+            </div>
+
+            <div class="sm:col-span-2">
+                <dt class="text-sm text-gray-500 font-medium">🔐 Vai trò</dt>
+                <dd class="text-base text-gray-800 font-semibold">@string.Join(", ", Model.Roles)</dd>
+            </div>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <div class="flex items-center justify-between mt-6">
+                <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-lg transition">
+                    ✅ Xác nhận Xóa
+                </button>
+                <a asp-action="Index" class="text-gray-600 hover:underline text-sm">🔙 Hủy bỏ và quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

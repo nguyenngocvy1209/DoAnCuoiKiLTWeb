@@ -1,0 +1,76 @@
+﻿@model Documentt.Models.Contact
+
+<section id="contact" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center text-blue-700 mb-12">📬 Liên hệ với chúng tôi</h2>
+
+        @* Thông báo thành công *@
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="bg-green-100 border border-green-400 text-green-800 px-6 py-4 rounded-lg mb-6 shadow-md" role="alert">
+                <strong class="font-semibold">✅ Thành công:</strong>
+                <span class="ml-2">@ViewBag.SuccessMessage</span>
+            </div>
+        }
+
+        @* Thông báo lỗi *@
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="bg-red-100 border border-red-400 text-red-800 px-6 py-4 rounded-lg mb-6 shadow-md" role="alert">
+                <strong class="font-semibold">❌ Lỗi:</strong>
+                <span class="ml-2">@ViewBag.ErrorMessage</span>
+            </div>
+        }
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+            <!-- Thông tin liên hệ -->
+            <div class="text-gray-800 space-y-6">
+                <p class="flex items-center gap-3">
+                    <i class="fas fa-envelope text-blue-600"></i>
+                    <span>Email: <a href="mailto:nnvy12095@gmail.com" class="text-blue-700 hover:underline">nnvy12095@gmail.com</a></span>
+                </p>
+                <p class="flex items-center gap-3">
+                    <i class="fas fa-phone-alt text-blue-600"></i>
+                    <span>Hotline: +84 123 456 789</span>
+                </p>
+                <p class="flex items-center gap-3">
+                    <i class="fas fa-map-marker-alt text-blue-600"></i>
+                    <span>Địa chỉ: 84 Vạn Kiếp, Đà Lạt, Lâm Đồng</span>
+                </p>
+                <div class="mt-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Contact Illustration" class="w-40 mx-auto md:mx-0">
+                </div>
+            </div>
+
+            <!-- Form liên hệ -->
+            <form id="contact-form" asp-action="Send" asp-controller="Contact" method="post" class="bg-white rounded-xl shadow-lg p-6 space-y-6">
+                @Html.AntiForgeryToken()
+
+                <div>
+                    <label for="contact-name" class="block text-sm font-medium text-gray-700">Họ và tên</label>
+                    <input type="text" id="contact-name" name="Name" value="@Model?.Name" placeholder="Nhập họ tên của bạn"
+                           class="w-full mt-1 px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition" aria-required="true" />
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-red-500 text-sm mt-1" })
+                </div>
+
+                <div>
+                    <label for="contact-email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="contact-email" name="Email" value="@Model?.Email" placeholder="Nhập email của bạn"
+                           class="w-full mt-1 px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition" aria-required="true" />
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-red-500 text-sm mt-1" })
+                </div>
+
+                <div>
+                    <label for="contact-message" class="block text-sm font-medium text-gray-700">Nội dung tin nhắn</label>
+                    <textarea id="contact-message" name="Message" placeholder="Nội dung bạn muốn gửi..."
+                              class="w-full mt-1 px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition" rows="5" aria-required="true">@Model?.Message</textarea>
+                    @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-red-500 text-sm mt-1" })
+                </div>
+
+                <button type="submit" class="bg-blue-600 text-white w-full py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
+                    <i class="fas fa-paper-plane mr-2"></i>Gửi tin nhắn
+                </button>
+            </form>
+        </div>
+    </div>
+</section>

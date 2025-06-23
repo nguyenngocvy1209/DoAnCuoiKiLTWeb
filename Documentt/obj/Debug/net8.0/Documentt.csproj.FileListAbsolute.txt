@@ -1,0 +1,586 @@
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\appsettings.Development.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\appsettings.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Documentt.staticwebassets.runtime.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Documentt.exe
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Documentt.deps.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Documentt.runtimeconfig.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Documentt.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Documentt.pdb
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Azure.Core.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Azure.Identity.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Humanizer.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.ClientModel.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.CodeDom.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Memory.Data.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.csproj.AssemblyReference.cache
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.GeneratedMSBuildEditorConfig.editorconfig
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.AssemblyInfoInputs.cache
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.AssemblyInfo.cs
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.csproj.CoreCompileInputs.cache
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.MvcApplicationPartsAssemblyInfo.cache
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.RazorAssemblyInfo.cache
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.RazorAssemblyInfo.cs
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets.build.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets.development.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.Documentt.Microsoft.AspNetCore.StaticWebAssets.props
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.build.Documentt.props
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Documentt.props
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Documentt.props
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\staticwebassets.pack.json
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\scopedcss\bundle\Documentt.styles.css
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\scopedcss\projectbundle\Documentt.bundle.scp.css
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.csproj.Up2Date
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\refint\Documentt.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.pdb
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.genruntimeconfig.cache
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\ref\Documentt.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\obj\Debug\net8.0\Documentt.MvcApplicationPartsAssemblyInfo.cs
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Build.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.Common.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.Configuration.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.Frameworks.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.LibraryModel.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.Packaging.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.ProjectModel.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.Protocol.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\NuGet.Versioning.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\af\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ar\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\az\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\bg\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\da\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\el\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fa\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\he\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\hr\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\hu\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\hy\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\id\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\is\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ku\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\lv\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\mt\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\nb\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\nl\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ro\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\sk\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\sl\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\sr\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\sv\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\uk\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\vi\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\LT_web1\bài làm thuê giá 200k\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\appsettings.Development.json
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\appsettings.json
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Documentt.staticwebassets.runtime.json
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Documentt.exe
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Documentt.deps.json
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Documentt.runtimeconfig.json
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Documentt.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Documentt.pdb
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Azure.Core.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Azure.Identity.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Humanizer.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Build.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.Common.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.ClientModel.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.CodeDom.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Memory.Data.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\BaoCaoThayTan\Documentt\Documentt\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.csproj.AssemblyReference.cache
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.AssemblyInfoInputs.cache
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.AssemblyInfo.cs
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.csproj.CoreCompileInputs.cache
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.MvcApplicationPartsAssemblyInfo.cs
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.MvcApplicationPartsAssemblyInfo.cache
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.RazorAssemblyInfo.cache
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.RazorAssemblyInfo.cs
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets.build.json
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets.development.json
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.Documentt.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.build.Documentt.props
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Documentt.props
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Documentt.props
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\scopedcss\bundle\Documentt.styles.css
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\scopedcss\projectbundle\Documentt.bundle.scp.css
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.csproj.Up2Date
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.dll
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\refint\Documentt.dll
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.pdb
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.genruntimeconfig.cache
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\ref\Documentt.dll

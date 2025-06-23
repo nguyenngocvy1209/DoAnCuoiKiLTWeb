@@ -1,0 +1,37 @@
+﻿@model Documentt.Models.Category
+
+@{
+    ViewData["Title"] = "Xóa Danh mục";
+    Layout = "_Layout";
+}
+
+<div class="container mx-auto py-12 px-4 max-w-xl">
+    <h1 class="text-3xl font-bold text-center text-red-700 mb-6">🗑️ Xác nhận xóa Danh mục</h1>
+
+    <div class="bg-white shadow-lg rounded-xl p-6">
+        <p class="text-center text-gray-700 text-lg mb-6">
+            Bạn có chắc chắn muốn xóa danh mục <span class="font-semibold text-red-600">"@Model.CategoryName"</span> không?
+            <br />
+            <span class="text-sm italic text-gray-500">Hành động này sẽ không thể hoàn tác.</span>
+        </p>
+
+        <dl class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 mb-6">
+            <dt class="text-gray-600 font-medium">Tên danh mục:</dt>
+            <dd class="text-gray-900">@Html.DisplayFor(model => model.CategoryName)</dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="CategoryId" />
+            <div class="flex justify-between items-center">
+                <button type="submit"
+                        class="bg-red-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-red-700 transition">
+                    ✅ Xác nhận xóa
+                </button>
+                <a asp-action="Index"
+                   class="text-gray-600 hover:underline hover:text-gray-800 transition">
+                    ↩️ Hủy và quay lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

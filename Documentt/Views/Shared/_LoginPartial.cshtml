@@ -1,0 +1,118 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    var user = await UserManager.GetUserAsync(User);
+}
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item relative">
+            <a href="#" id="user-greeting" class="hover:underline hover:text-blue-600 transition cursor-pointer">Xin Chào @(user.UserName)</a>
+            <div id="account-dropdown-loggedin" class="absolute right-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg hidden z-10">
+                <a href="/Profile" class="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600 transition" style="color: black;">Hồ Sơ</a>
+                @if (User.IsInRole("Admin")) // Kiểm tra vai trò "Admin"
+                {
+                    <a class="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600 transition" style="color: black;" asp-area="Admin" asp-controller="Admin" asp-action="Index">Quản lý Admin</a>
+                }
+                <form id="logoutForm" class="block" asp-controller="Profile" asp-action="Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                    <button type="submit" class="w-full text-left px-4 py-2 hover:bg-gray-100 hover:text-blue-600 transition bg-transparent border-none text-inherit cursor-pointer" style="color: black;">Đăng Xuất</button>
+                </form>
+            </div>
+        </li>
+    }
+    else
+    {
+        <li class="relative">
+            <a href="#" id="guest-greeting" class="hover:underline hover:text-blue-600 transition cursor-pointer">Tài khoản</a>
+            <div id="account-dropdown-guest" class="absolute right-0 mt-2 w-48 bg-white text-black rounded-lg shadow-lg hidden z-10">
+                <a href="/Identity/Account/Login" class="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600 transition" style="color: black;">Đăng nhập</a>
+                <a href="/Identity/Account/Register" class="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600 transition" style="color: black;">Đăng ký</a>
+            </div>
+        </li>
+    }
+</ul>
+
+            <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Lấy phần tử kích hoạt dropdown cho trạng thái Đã đăng nhập
+        const userGreetingLoggedIn = document.getElementById('user-greeting');
+        // Lấy phần tử kích hoạt dropdown cho trạng thái Chưa đăng nhập
+        const guestGreeting = document.getElementById('guest-greeting');
+
+        // Lấy các phần tử dropdown nội dung
+        const accountDropdownLoggedIn = document.getElementById('account-dropdown-loggedin');
+        const accountDropdownGuest = document.getElementById('account-dropdown-guest');
+
+        // Hàm chung để đóng tất cả các dropdown
+        function closeAllDropdowns() {
+            if (accountDropdownLoggedIn) {
+                accountDropdownLoggedIn.classList.add('hidden');
+            }
+            if (accountDropdownGuest) {
+                accountDropdownGuest.classList.add('hidden');
+            }
+        }
+
+        // Gắn sự kiện click cho phần tử "Xin Chào [Username]" (khi đã đăng nhập)
+        if (userGreetingLoggedIn) {
+            userGreetingLoggedIn.addEventListener('click', function (event) {
+                event.preventDefault(); // Ngăn chặn thẻ <a> nhảy trang
+                event.stopPropagation(); // Ngăn chặn sự kiện click lan ra ngoài document
+
+                // Đóng các dropdown khác trước khi mở cái này
+                closeAllDropdowns();
+
+                // Chuyển đổi trạng thái hiển thị của dropdown này
+                if (accountDropdownLoggedIn) {
+                    accountDropdownLoggedIn.classList.toggle('hidden');
+                }
+            });
+        }
+
+        // Gắn sự kiện click cho phần tử "Tài khoản" (khi chưa đăng nhập)
+        if (guestGreeting) {
+            guestGreeting.addEventListener('click', function (event) {
+                event.preventDefault(); // Ngăn chặn thẻ <a> nhảy trang
+                event.stopPropagation(); // Ngăn chặn sự kiện click lan ra ngoài document
+
+                // Đóng các dropdown khác trước khi mở cái này
+                closeAllDropdowns();
+
+                // Chuyển đổi trạng thái hiển thị của dropdown này
+                if (accountDropdownGuest) {
+                    accountDropdownGuest.classList.toggle('hidden');
+                }
+            });
+        }
+
+        // Ngăn chặn sự kiện click bên trong dropdown đóng nó
+        if (accountDropdownLoggedIn) {
+            accountDropdownLoggedIn.addEventListener('click', function (event) {
+                event.stopPropagation();
+            });
+        }
+        if (accountDropdownGuest) {
+            accountDropdownGuest.addEventListener('click', function (event) {
+                event.stopPropagation();
+            });
+        }
+
+        // Đóng tất cả dropdown khi click bất kỳ đâu bên ngoài
+        document.addEventListener('click', function (event) {
+            closeAllDropdowns();
+        });
+
+        // Xử lý Form Đăng Xuất (giữ nguyên logic submit form)
+        const logoutForm = document.getElementById('logoutForm');
+        if (logoutForm) {
+            logoutForm.addEventListener('submit', function (event) {
+                // Không ngăn chặn mặc định, để form tự submit đến backend
+                // Nếu bạn muốn AJAX, bỏ comment event.preventDefault() và thêm fetch request
+            });
+        }
+    });
+            </script>
