@@ -584,3 +584,4 @@ D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\refint\Documentt.dll
 D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.pdb
 D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.genruntimeconfig.cache
 D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\ref\Documentt.dll
+D:\BaoCaoThayTan\Documentt\Documentt\obj\Debug\net8.0\Documentt.sourcelink.json
